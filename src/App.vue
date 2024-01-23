@@ -26,6 +26,9 @@ import Footer from "./components/Footer.vue"
 
 export default {
   name: 'App',
+  metaInfo: {
+    title: 'Good Advices'
+  },
   components: {
    Advice,
    NavBar,
